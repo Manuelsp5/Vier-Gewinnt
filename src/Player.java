@@ -1,11 +1,14 @@
 public class Player {
     private String name;
-    private int wins = 0;
-    private int losses = 0;
-    private int draws = 0;
+    private int wins;
+    private int losses;
+    private int draws;
 
     public Player(String name) {
         this.name = name;
+        this.wins = 0;
+        this.losses = 0;
+        this.draws = 0;
     }
 
     public String getName() {
@@ -27,6 +30,8 @@ public class Player {
     public void addWins() { wins++; }
 
     public void addLosses() { losses++; }
+
+    public void addDraws() { draws++; }
 
     @Override
     public String toString() {
