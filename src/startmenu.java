@@ -10,7 +10,7 @@ public class startmenu extends Application {
         Label l = new Label("JavaFX funktioniert!");
         Scene scene = new Scene(l, 300, 200);
         stage.setScene(scene);
-        stage.setTitle("Test");
+        stage.setTitle("Test1");
         stage.show();
     }
 
