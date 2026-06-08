@@ -35,5 +35,6 @@ public class Player {
     public String toString() {
         return name + " | Wins: " + wins + " | Losses: " + losses + " | Draws: " + draws;
     }
+
 }
 
