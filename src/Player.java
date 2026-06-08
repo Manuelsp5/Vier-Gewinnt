@@ -1,14 +1,11 @@
 public class Player {
     private String name;
-    private int wins;
-    private int losses;
-    private int draws;
+    private int wins = 0;
+    private int losses = 0;
+    private int draws = 0;
 
-    public Player(String name, int wins, int losses, int draws) {
+    public Player(String name) {
         this.name = name;
-        this.wins = wins;
-        this.losses = losses;
-        this.draws = draws;
     }
 
     public String getName() {
